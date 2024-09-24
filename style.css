@@ -2,6 +2,7 @@ body {
     text-align:center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(230, 167, 40);
+    margin:0;
 }
 
 span {
@@ -26,6 +27,7 @@ span {
 img {
     display: inline-block;
     margin: 0;
+    width:fit-content;
 }
 
 .right-arrow {
