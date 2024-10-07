@@ -17,6 +17,7 @@ h1 {
 }
 
 h1:hover {
+    display: block;
     font-size: 10vh;
     text-decoration: underline dotted;
 }
@@ -123,13 +124,29 @@ button {
 }
 
 .back {
-    background-color: rgb(133, 204, 28);
-    width:10%;
+    display:block;
+    width: 10%;
+    height: 15%;
+    font-size: 4vh;
+    border: none;
+    background-color: rgb(38, 220, 166);
+    transition: outline-offset 1s;
+    margin: 1vh 0 0 1vh;
+    padding:0.7vh;
     text-align: center;
 }
 
-.back a {
+.back:hover {
+    border: 0.3vh solid rgb(228, 228, 51);
+    outline: solid rgb(210, 210, 63);
+    outline-offset: 10px;
+}
+
+.link-back {
     text-decoration: none;
+    font-size: 5vh;
+    margin:1vh 0 0 0;
+    color: rgb(15, 92, 200);
 }
 
 .container {
