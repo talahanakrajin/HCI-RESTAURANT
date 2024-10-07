@@ -18,7 +18,9 @@ body {
 }
 
 .menu-block {
-    display: block;    
+    display: block;
+    position: relative;
+    margin-left: 50px;    
 }
 
 .menu {
