@@ -122,10 +122,20 @@ button {
     font-size:3vh;
 }
 
+.back {
+    background-color: rgb(133, 204, 28);
+    width:10%;
+    text-align: center;
+}
+
+.back a {
+    text-decoration: none;
+}
+
 .container {
     display: absolute;
     position:relative;
-    top:10vh;
+    top:5vh;
     color: rgb(210, 210, 63);
     width: 80%;
     height:300%;
@@ -133,48 +143,48 @@ button {
     background-color: #f7f7f7;
     padding: 1vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 1%;
+    border-radius:1vh;
   }
   
-  .header-menu {
+.header-menu {
     font-size: 24px;
     font-weight: 1000;
     margin-bottom: 20px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-  }
-  
-  .desc {
+}
+
+.desc {
     padding:0;
     position: relative;
     bottom:1vh;
-  }
+}
 
-  .menu-block {
+.menu-block {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-  }
-  
-  .menu-block img {
-    width: 25vw;
-    height: 25vw;
+}
+
+.menu-block img {
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
     margin-right: 20px;
-  }
-  
-  .menu-name {
+}
+
+.menu-name {
     font-size: 10vh;
     font-weight: bold;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .menu-desc {
+.menu-desc {
     color:grey;
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 4vh;
-  }
+    font-size: 3vh;
+}
