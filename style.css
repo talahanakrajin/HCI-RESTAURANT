@@ -83,7 +83,7 @@ button {
     background-color:unset;
     border-color:white;
     font-size: 300%;
-    height:15vh;
+    height:25vh;
     width:35vh;
     margin:0;
 }
@@ -121,5 +121,13 @@ button {
     font-size:3vh;
 }
 
+.menu {
+    display: block;
+    width: 4vw;
+    height: 4vh;
+}
 
-
+.menuimg {
+    width: 400px;
+    height: 200px;
+}
