@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color:white;
     
 }
 
@@ -27,7 +28,6 @@ body {
     display: inline-block;
     width: 30vw;
     height: 60vh;
-    
 
 }
 
@@ -64,7 +64,10 @@ body {
     text-decoration: none;
     font-size: 5vh;
     margin:1vh 0 0 0;
-    color: rgb(15, 92, 200);
+}
+
+.menu-block a:hover {
+    color:yellow;
 }
 
 .menuclick {
@@ -73,6 +76,20 @@ body {
     font-weight: 100;
     font-size: 4vh;
     border: none;
-    color: white;
-    text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#macro {
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    text-decoration: dotted underline;
+    background-color: black;
+    text-align: center;
+    padding:10px 0;
+}
+

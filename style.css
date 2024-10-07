@@ -25,6 +25,10 @@ h1:hover {
     text-decoration: underline dotted;
 }
 
+h3 {
+    font-size:2.1vh;
+}
+
 nav {
     margin:0 0 100% 0;
     display: inline;
