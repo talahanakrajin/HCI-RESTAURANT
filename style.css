@@ -187,10 +187,11 @@ button {
 }
 
 .menu-block img {
-    width: 35vw;
-    height: 35vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     margin-right: 20px;
+    
 }
 
 .menu-name {
