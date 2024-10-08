@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #363232;
+    background-color: rgb(201, 61, 89);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(sate2.jpg);
+    background-size:cover;
+    color: #fff;
     padding: 0;
     color:yellow;
 }
@@ -95,6 +98,11 @@ a:hover {
     text-decoration: none;
     font-size: 5vh;
     color: rgb(15, 92, 200);
+}
+
+table, tr, th, td {
+    border: 2px white;
+    border-collapse: collapse;
 }
 
 /*ewafkjsdf;klsdj;fkljadsf;lkadsjk;lfajdksfsd*/
