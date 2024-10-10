@@ -6,43 +6,49 @@
     <title>Restaurant Feedback Form</title>
     <link rel="stylesheet" href="style3.css">
     <link rel="icon" href="Risotrane.png">
+
 </head>
 <body>
     <a href="index.html" class="link-back">
         <div class="back">Back</div>
     </a>
-    <h3>Contact us on</h3>
-    <nav>
-        <a href="https://www.instagram.com/p/CbmrmkUOb2K/">INSTA</a>|
-        <a href="https://www.instagram.com/p/CbmrmkUOb2K/">FB</a>|
-        <a href="https://www.instagram.com/p/CbmrmkUOb2K/">Whatsapp</a>
-    </nav>
-    <h2>How to make your Restorante membership</h2>
-    <ol>
-        <li>Download the Restorante app</li>
-        <li>Sign up using your email and valid number</li>
-        <li>To activate account go to any Ristorante branch to request activation</li>
-        <li>A purchase of over Rp. 1,000,000.00 is required to activate the membership</li>
-        <li>Enjoy the benefits!!!</li>
-    </ol>
+    <div class="container">
 
-    <div class="feedback-form">
-        <h1>Restorante Feedback</h1>
-        <form action="/submit-feedback" method="post">
-            <div class="form-group">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Feedback:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
+        <h3>Contact us on</h3>
+        <nav>
+            <a href="https://www.instagram.com/p/CbmrmkUOb2K/">INSTA</a>|
+            <a href="https://www.instagram.com/p/CbmrmkUOb2K/">FB</a>|
+            <a href="https://www.instagram.com/p/CbmrmkUOb2K/">Whatsapp</a>
+        </nav>
+        <h2>How to make your Restorante membership</h2>
+        <ol>
+            <li>Download the Restorante app</li>
+            <li>Sign up using your email and valid number</li>
+            <li>To activate account go to any Ristorante branch to request activation</li>
+            <li>A purchase of over Rp. 1,000,000.00 is required to activate the membership</li>
+            <li>Enjoy the benefits!!!</li>
+        </ol>
+    </div>
+    <div class="container">
+        <div class="feedback-form">
+            <h1>Restorante Feedback</h1>
+            <form  action="submit">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Feedback:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button onclick="myFunction()">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
+
 </html>

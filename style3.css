@@ -3,6 +3,13 @@ body {
     background-color: #363232;
     padding: 0;
     color:yellow;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/resto_tables.jpeg);
+    background-size: cover;
+}
+
+.container {
+    display: inline-block;
+
 }
 
 .feedback-form {
@@ -53,7 +60,7 @@ h3 {
 
 ol {
     padding:25px 0 50px 0;
-    width: 30%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -75,7 +82,7 @@ a:hover {
 
 .back {
     display:block;
-    width: 10%;
+    width: 12.5%;
     height: 15%;
     font-size: 4vh;
     border: none;
@@ -83,6 +90,7 @@ a:hover {
     transition: outline-offset 1s;
     padding:0.7vh;
     text-align: center;
+    margin-left: 1vw;
 }
 
 .back:hover {
@@ -97,4 +105,30 @@ a:hover {
     color: rgb(15, 92, 200);
 }
 
-/*ewafkjsdf;klsdj;fkljadsf;lkadsjk;lfajdksfsd*/
+.container {
+    margin: 3% auto;
+    width:45%;
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    font-size: 5vh;
+}
+
+th {
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+td {
+    border-right: 2px solid #ccc;
+}
+
+.container_table {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
