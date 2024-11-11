@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(201, 61, 89);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(sate2.jpg);
+    background-size:cover;
+    color: #fff;
+    padding: 0;
+    color:yellow;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/resto_tables.jpeg);
+    background-size: cover;
+}
+
+.container {
+    display: inline-block;
+
+}
+
+.feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #ff9900;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1 {
+    color:orange;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    color:#ff9900;
+    text-align: center;
+    font-size: 7.5vh;
+    margin:0 0 20px;
+}
+
+ol {
+    padding:25px 0 50px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size:35px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 30px;
+    color:yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    display:block;
+    width: 12.5%;
+    height: 15%;
+    font-size: 4vh;
+    border: none;
+    background-color: rgb(38, 220, 166);
+    transition: outline-offset 1s;
+    padding:0.7vh;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+.back:hover {
+    border: 0.3vh solid rgb(228, 228, 51);
+    outline: solid rgb(210, 210, 63);
+    outline-offset: 10px;
+}
+
+.link-back {
+    text-decoration: none;
+    font-size: 5vh;
+    color: rgb(15, 92, 200);
+}
+
+.container {
+    margin: 3% auto;
+    width:45%;
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    font-size: 5vh;
+}
+
+th {
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+td {
+    border-right: 2px solid #ccc;
+}
+
+.container_table {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
