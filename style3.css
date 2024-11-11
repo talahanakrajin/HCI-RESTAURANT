@@ -133,16 +133,20 @@ button {
 }
 
 .back {
-    display:block;
+    display:flex;
     width: 10%;
     height: 15%;
     font-size: 4vh;
     border: none;
     background-color: rgb(38, 220, 166);
     transition: outline-offset 1s;
-    margin: 1vh 0 0 1vh;
+    margin: 1vh 0 0 2vh;
     padding:0.7vh;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Alfa Slab One", serif;
 }
 
 .back:hover {
@@ -188,7 +192,9 @@ button {
 
 .menu-block {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    
     margin-bottom: 20px;
 }
 
@@ -216,3 +222,31 @@ button {
     font-size: 3vh;
 }
 
+@media (max-width:720px) {
+    .back {
+        width: 9vh
+    }
+
+    .header-menu {
+        font-size: 50px;
+    }
+
+    .menu-name {
+        text-align: center;
+    }
+
+    .menu-block {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .menu-block img {
+        width: 70vw;
+        height: 70vw;
+    }
+    .back {
+        width: 90%; 
+        font-size: 3vh; 
+        padding: 1vh;
+    }
+}
