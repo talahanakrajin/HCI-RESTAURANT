@@ -249,4 +249,14 @@ button {
         font-size: 3vh; 
         padding: 1vh;
     }
+    .header-menu {
+        font-size: 4vh;
+    }
+    .menu-name {
+        font-size:4vh;
+    }
+    .container {
+        margin:0 auto auto auto;
+    }
 }
+

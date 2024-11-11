@@ -12,7 +12,7 @@ body {
 
 .container {
     display: inline-block;
-
+    /* width:95%; */
 }
 
 .feedback-form {
@@ -135,3 +135,4 @@ td {
 h1 {
     text-align: center;
 }
+
