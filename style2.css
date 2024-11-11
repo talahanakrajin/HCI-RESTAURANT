@@ -34,6 +34,7 @@ body {
     max-width: 500px;
     height: 100%;
     border: 3px solid #fff;
+    background-color: rgb(14, 176, 235);
 }
 
 .menuimg {
