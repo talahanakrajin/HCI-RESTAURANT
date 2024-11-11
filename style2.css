@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,12 +27,13 @@ body {
 .menu {
     display: inline-block;
     width: 30vw;
-    height: 60vh;
+    height: 35%;
+    border: 1px solid #fff;
 
 }
 
 .menuimg {
-    width: 350px;
+    width: 100%;
     height: 250px;
     font-family: 'Alfa Slab One', sans-serif;
     font-weight: 100;
