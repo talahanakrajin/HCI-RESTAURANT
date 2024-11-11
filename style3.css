@@ -1,100 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
     background-color: rgb(201, 61, 89);
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(sate2.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/sate2.jpg);
     background-size:cover;
     color: #fff;
-    padding: 0;
-    color:yellow;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/resto_tables.jpeg);
-    background-size: cover;
-}
-
-.container {
-    display: inline-block;
-
-}
-
-.feedback-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-}
-
-input[type="text"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #ff9900;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 h1 {
-    color:orange;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 33%;
+    font-size:5vh;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400px;
+    font-style: normal;
 }
 
-h2 {
-    text-align: center;
-    margin: 0 auto;
+h1:hover {
+    font-size: 10vh;
+    text-decoration: underline dotted;
 }
 
 h3 {
-    color:#ff9900;
-    text-align: center;
-    font-size: 7.5vh;
-    margin:0 0 20px;
-}
-
-ol {
-    padding:25px 0 50px 0;
-    width: 75%;
-    margin: 0 auto;
+    font-size:2.1vh;
 }
 
 nav {
-    margin: 0 auto 20px auto;
+    margin:0 0 100% 0;
+    display: inline;
+}
+
+.logo {
+    font-size: 10vh;
+    display: inline;
+}
+
+.logo:hover {
+    color:rgb(228, 228, 51);
+}
+
+#sub-text {
+    font-size:3vh;
+}
+
+div {
+    margin:0;
+}
+
+.heading {
+    display: inline;
+    margin: auto;
     text-align: center;
-    font-size:35px;
+    font-size: 4vh;
+
 }
 
-a {
-    text-decoration: none;
-    padding: 0 30px;
-    color:yellow;
+.inline {
+    display: inline;
 }
 
-a:hover {
-    text-decoration: underline;
+.contact {
+    display: block;
+    width: 100vh;
+}
+
+.table {
+    display: inline-block;
+    width:  29vw;
+    margin: 0 0 0 70%;
+    outline:none;
+    font-size: 4vh;
+}
+
+button {
+    /* border: none; */
+    width: 30%;
+    height: 7.5vh;
+    font-size: 4vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.circle {
+    border-radius: 45%;
+    color:white;
+    background-color:unset;
+    border-color:white;
+    font-size: 8vh;
+    height:15vh;
+    width:45vh;
+    margin:0;
+}
+
+.circle:hover {
+    background-color: white;
+    color:black;
+}
+
+.square{
+    width: 75%;
+    height: fit-content;
+    background-color: rgb(133, 204, 28);
+    border:none;
+    font-size:8vh;
+    border: 2px solid #fff;
+}
+
+.square:hover {
+    border: 4px solid #fff;
+    height:auto;
+    color:#fff;
+}
+
+.contacts {
+    margin:10vh 0 0 0;
+    position: relative;
+    left:20vh;
+    display: inline-block;
+}
+.contact {
+    position:aboslute;
+    bottom: 0;
+}
+
+.address {
+    font-size:3vh;
 }
 
 .back {
-    display:block;
-    width: 12.5%;
+    display:flex;
+    width: 10%;
     height: 15%;
     font-size: 4vh;
     border: none;
     background-color: rgb(38, 220, 166);
     transition: outline-offset 1s;
+    margin: 1vh 0 0 2vh;
     padding:0.7vh;
     text-align: center;
-    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Alfa Slab One", serif;
 }
 
 .back:hover {
@@ -106,33 +158,95 @@ a:hover {
 .link-back {
     text-decoration: none;
     font-size: 5vh;
+    margin:1vh 0 0 0;
     color: rgb(15, 92, 200);
 }
 
 .container {
-    margin: 3% auto;
-    width:45%;
-}
-
-table {
-    margin: 0 auto;
-    border: 2px solid #ffffff;
-    font-size: 5vh;
-}
-
-th {
-    border-right: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
-}
-
-td {
-    border-right: 2px solid #ccc;
-}
-
-.container_table {
-    margin: 0 auto;
-}
-
-h1 {
+    display: absolute;
+    position: relative;
+    top:5vh;
+    color: rgb(210, 210, 63);
+    width: 80%;
+    height:300%;
+    margin: 3vh auto;
+    background-color: #f7f7f7;
+    padding: 1vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:1vh;
+  }
+  
+.header-menu {
+    font-size: 24px;
+    font-weight: 1000;
+    margin-bottom: 20px;
     text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.desc {
+    padding:0;
+    position: relative;
+    bottom:1vh;
+}
+
+.menu-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-bottom: 20px;
+}
+
+.menu-block img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.menu-name {
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-desc {
+    color:grey;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+@media (max-width:720px) {
+    .back {
+        width: 9vh
+    }
+
+    .header-menu {
+        font-size: 50px;
+    }
+
+    .menu-name {
+        text-align: center;
+    }
+
+    .menu-block {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .menu-block img {
+        width: 70vw;
+        height: 70vw;
+    }
+    .back {
+        width: 90%; 
+        font-size: 3vh; 
+        padding: 1vh;
+    }
 }

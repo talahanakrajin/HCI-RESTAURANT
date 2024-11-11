@@ -19,17 +19,22 @@ body {
 }
 
 .menu-block {
-    display: block;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     margin-left: 50px;    
 }
 
 .menu {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30vw;
-    height: 35%;
-    border: 1px solid #fff;
-
+    max-width: 500px;
+    height: 100%;
+    border: 3px solid #fff;
+    background-color: rgb(14, 176, 235);
 }
 
 .menuimg {
@@ -43,16 +48,19 @@ body {
 }
 
 .back {
-    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     width: 10%;
     height: 15%;
     font-size: 4vh;
     border: none;
     background-color: rgb(38, 220, 166);
     transition: outline-offset 1s;
-    margin: 1vh 0 0 1vh;
-    padding:0.7vh;
+    margin: 1vh 0 0 2vh;
+    padding: 0.7vh;
     text-align: center;
+    font-family: 'Alfa Slab One', sans-serif;
 }
 
 .back:hover {
@@ -94,3 +102,22 @@ a {
     padding:10px 0;
 }
 
+@media (max-width:720px) {
+    .menu {
+        width: 40vw;
+        height: auto;
+    }
+    
+    .back {
+        width: 90%; 
+        font-size: 3vh; 
+        padding: 1vh;
+    }
+    
+    .title {
+        font-size: 3vh;
+    }
+    .menuclick {
+        font-size: 3vh;
+    }
+}
