@@ -57,7 +57,7 @@ body {
     border: none;
     background-color: rgb(38, 220, 166);
     transition: outline-offset 1s;
-    margin: 1vh 0 0 1vh;
+    margin: 1vh 0 0 2vh;
     padding: 0.7vh;
     text-align: center;
     font-family: 'Alfa Slab One', sans-serif;
@@ -102,3 +102,22 @@ a {
     padding:10px 0;
 }
 
+@media (max-width:720px) {
+    .menu {
+        width: 40vw;
+        height: auto;
+    }
+    
+    .back {
+        width: 90%; 
+        font-size: 3vh; 
+        padding: 1vh;
+    }
+    
+    .title {
+        font-size: 3vh;
+    }
+    .menuclick {
+        font-size: 3vh;
+    }
+}
