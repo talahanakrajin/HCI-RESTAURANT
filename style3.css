@@ -136,3 +136,67 @@ td {
 h1 {
     text-align: center;
 }
+
+.link-back {
+    text-decoration: none;
+    font-size: 5vh;
+    margin:1vh 0 0 0;
+    color: rgb(15, 92, 200);
+}
+
+.back {
+    display:block;
+    width: 10%;
+    height: 15%;
+    font-size: 4vh;
+    border: none;
+    background-color: rgb(38, 220, 166);
+    transition: outline-offset 1s;
+    margin: 1vh 0 0 1vh;
+    padding:0.7vh;
+    text-align: center;
+}
+
+.container {
+    display: absolute;
+    position:relative;
+    top:5vh;
+    color: rgb(210, 210, 63);
+    width: 80%;
+    height:300%;
+    margin: 3vh auto;
+    background-color: #f7f7f7;
+    padding: 1vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:1vh;
+  }
+
+.header-menu {
+    font-size: 24px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.menu-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-name {
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-desc {
+    color:grey;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+}
