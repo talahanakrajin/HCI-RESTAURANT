@@ -136,3 +136,29 @@ h1 {
     text-align: center;
 }
 
+@media (max-width:720px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav {
+        font-size: 5vh;
+    }
+    a {
+        padding: 0 5px;
+    }
+    h3 {
+        font-size: 5.5vh;
+        width:100%;
+    }
+    .back {
+        width: 90%; 
+        font-size: 3vh; 
+        margin:0;
+    }
+    .link-back {
+        margin:0;
+        padding: 0 0 0 0;
+    }
+}
